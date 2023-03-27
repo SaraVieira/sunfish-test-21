@@ -1,0 +1,36 @@
+
+name: Oranda
+on:
+  push:
+    branches:
+      - main
+  workflow_run:
+    workflows: ["Release"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        ref: 'bbfa1d5c70d7d8a163b4ce2dda0a894e59ac8826'
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    - name: Install and run oranda
+      run: |
+        curl --proto '=https' --tlsv1.2 -LsSf https://github.com/axodotdev/oranda/releases/download/v0.0.1/oranda-v0.0.1-installer.sh | sh
+        cd cargo-dist
+        oranda build
+    - name: Deploy to gh-pages
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+        branch: gh-pages
+        folder: cargo-dist/public
+        token: ${{ secrets.GITHUB_TOKEN }}
+        single-commit: true
