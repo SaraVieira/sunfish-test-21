@@ -1,1 +1,4 @@
-{"name":"Sunfish","changelog":false}
+{
+  "name": "Sunfish",
+  "changelog": true
+}
