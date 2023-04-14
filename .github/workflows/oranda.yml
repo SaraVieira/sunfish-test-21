@@ -1,6 +1,6 @@
 name: Oranda
 on:
-  pull_request:
+  # pull_request:
   push:
     branches:
       - main
