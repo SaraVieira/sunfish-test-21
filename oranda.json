@@ -4,7 +4,7 @@
   "description": "sup",
   "homepage": null,
   "changelog": false,
-  "theme": "hacker",
+  "theme": "dark",
   "deployTargets": [
     "AXO",
     "GITHUB_PAGES"
