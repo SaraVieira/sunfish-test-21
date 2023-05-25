@@ -5,5 +5,9 @@
   "homepage": null,
   "changelog": false,
   "theme": "hacker",
+  "deployTargets": [
+    "AXO",
+    "GITHUB_PAGES"
+  ],
   "path_prefix": "sunfish-test"
 }
