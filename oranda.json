@@ -2,22 +2,16 @@
   "name": "sunfish-test1111112",
   "repository": "https://github.com/SaraVieira/sunfish-test",
   "description": "sup",
-  "homepage": null,
-  "license": null,
   "changelog": false,
   "styles": {
     "theme": "dark"
   },
   "dist_dir": "public",
   "no_header": false,
-  "social": null,
   "analytics": {
-    "ga": {
-      "tracking_id": "asdasd"
-    },
-    "plausible": null,
-    "fathom": null,
-    "unami": null
+    "google_analytics": {
+      "tracking_id": "sdasda"
+    }
   },
   "readme_path": "README.md",
   "additional_pages": [],
