@@ -29,6 +29,14 @@
     }
   ],
   "artifacts": {
-    "cargo_dist": false
+    "cargo_dist": true,
+    "package_managers": [
+      {
+        "npm ": "lol"
+      },
+      {
+        "one": "two"
+      }
+    ]
   }
 }
