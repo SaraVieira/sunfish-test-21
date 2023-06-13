@@ -3,7 +3,18 @@
   "repository": "https://github.com/SaraVieira/sunfish-test",
   "description": "sup",
   "homepage": null,
+  "license": null,
   "changelog": false,
+  "styles": {
+    "theme": "dark"
+  },
+  "dist_dir": "public",
+  "no_header": false,
+  "social": null,
+  "analytics": null,
+  "readme_path": "README.md",
+  "additional_pages": [],
+  "static_dir": "static",
   "theme": "dark",
   "deployTargets": [
     "AXO",
