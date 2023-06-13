@@ -22,5 +22,13 @@
     "GITHUB_PAGES"
   ],
   "path_prefix": "sunfish-test",
-  "n": "a"
+  "n": "a",
+  "artifacts.package_managers": [
+    {
+      "npm": "lol"
+    }
+  ],
+  "artifacts": {
+    "cargo_dist": false
+  }
 }
