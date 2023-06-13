@@ -20,5 +20,6 @@
     "AXO",
     "GITHUB_PAGES"
   ],
-  "path_prefix": "sunfish-test"
+  "path_prefix": "sunfish-test",
+  "n": "a"
 }
