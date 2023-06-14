@@ -1,0 +1,26 @@
+{
+  "name": "sunfish-test",
+  "repository": "https://github.com/SaraVieira/sunfish-test",
+  "description": "sup",
+  "changelog": false,
+  "styles": {
+    "theme": "dark"
+  },
+  "dist_dir": "public",
+  "no_header": false,
+  "readme_path": "README.md",
+  "additional_pages": [],
+  "static_dir": "static",
+  "artifacts": {
+    "cargo_dist": false,
+    "package_managers": [
+      {
+        "npm": "axo"
+      },
+      {
+        "cargo": "lol"
+      }
+    ]
+  },
+  "path_prefix": "sunfish-test"
+}
