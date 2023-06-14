@@ -31,5 +31,9 @@
     ]
   },
   "path_prefix": "sunfish-test",
-  "funding.community_bridge": "asdasdas"
+  "funding.community_bridge": "asdasdas",
+  "funding": {
+    "community_bridge": "asdasdasdasd",
+    "ko_fi": "asdasd"
+  }
 }
