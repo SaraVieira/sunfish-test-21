@@ -8,6 +8,14 @@
   },
   "dist_dir": "public",
   "no_header": false,
+  "analytics": {
+    "google_analytics": {
+      "tracking_id": "asdasda"
+    },
+    "fathom": {
+      "site": "asdasd"
+    }
+  },
   "readme_path": "README.md",
   "additional_pages": [],
   "static_dir": "static",
