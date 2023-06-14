@@ -8,6 +8,9 @@
   },
   "dist_dir": "public",
   "no_header": false,
+  "social": {
+    "image": "asdsa"
+  },
   "analytics": {
     "google_analytics": {
       "tracking_id": "asdasda"
