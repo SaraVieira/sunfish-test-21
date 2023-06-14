@@ -4,7 +4,7 @@
   "description": "sup",
   "changelog": false,
   "styles": {
-    "theme": "dark"
+    "theme": "light"
   },
   "dist_dir": "public",
   "no_header": false,
