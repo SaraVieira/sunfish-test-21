@@ -30,5 +30,6 @@
       }
     ]
   },
-  "path_prefix": "sunfish-test"
+  "path_prefix": "sunfish-test",
+  "funding.community_bridge": "asdasdas"
 }
