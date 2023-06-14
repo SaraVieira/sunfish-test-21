@@ -38,5 +38,6 @@
         "one": "two"
       }
     ]
-  }
+  },
+  "styles.theme": "light"
 }
