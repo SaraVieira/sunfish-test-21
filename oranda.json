@@ -1,11 +1,3 @@
 {
-  "analytics": {
-    "google": {
-      "tracking_id": "asdasda"
-    },
-    "fathom": {
-      "site": "asdasd"
-    }
-  },
   "path_prefix": "sunfish-test"
 }
