@@ -1,4 +1,6 @@
 {
-  "logo": "https://static.wikia.nocookie.net/p__/images/8/86/KRtDLD_Kirby.png/revision/latest?cb=20230112203117&path-prefix=protagonist",
+  "styles": {
+    "theme": "hacker"
+  },
   "path_prefix": "sunfish-test"
 }
