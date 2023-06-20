@@ -1,8 +1,14 @@
 {
   "name": "LOL",
+  "repository": "https://github.com/SaraVieira/sunfish-test",
+  "description": "sup",
+  "changelog": false,
   "styles": {
     "theme": "axodark"
   },
+  "dist_dir": "public",
+  "readme_path": "README.md",
+  "static_dir": "static",
   "path_prefix": "sunfish-test",
   "logo": "https://cdn.wikirby.com/archive/0/04/20200203000421%21Kirby_JP_Twitter_Icon.png",
   "artifacts": {
