@@ -1,4 +1,6 @@
 {
-  "logo": "https://saravieira.github.io/sunfish-test/p___images_8_86_KRtDLD_Kirby.png_revision_latest",
+  "styles": {
+    "theme": "axodark"
+  },
   "path_prefix": "sunfish-test"
 }
