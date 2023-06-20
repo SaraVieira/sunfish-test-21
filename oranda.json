@@ -3,16 +3,6 @@
   "styles": {
     "theme": "axodark"
   },
- "artifacts": {
-    "package_managers": {
-      "npm": "npm install @axodotdev/oranda --save-dev",
-      "npx": "npx @axodotdev/oranda",
-      "crates.io": "cargo install oranda --locked --profile=dist",
-      "binstall": "cargo binstall oranda",
-      "nix-env": "nix-env -i oranda",
-      "nix flake": "nix profile install github:axodotdev/oranda"
-    }
-  },
   "path_prefix": "sunfish-test",
   "logo": "https://cdn.wikirby.com/archive/0/04/20200203000421%21Kirby_JP_Twitter_Icon.png"
 }
