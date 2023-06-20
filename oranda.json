@@ -13,8 +13,10 @@
   "logo": "https://cdn.wikirby.com/archive/0/04/20200203000421%21Kirby_JP_Twitter_Icon.png",
   "artifacts": {
     "package_managers": {
-      " crates": "crates_test",
-      "npm": "npm_test"
+      "preferred": {
+        "crates": "crates_test",
+        "npm": "npm_test"
+      }
     }
   }
 }
