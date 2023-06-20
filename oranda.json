@@ -15,7 +15,14 @@
     "package_managers": {
       "preferred": {
         "crates": "crates_test",
-        "npm": "npm_test"
+        "npm": "npm install @axodotdev/oranda --save-dev",
+        "cargo": "cargo install oranda --locked --profile=dist"
+      },
+      "additional": {
+        "binstall": "cargo binstall oranda",
+        "npx": "npx @axodotdev/oranda",
+        "nix-env": "nix-env -i oranda",
+        "nix flake": "nix profile install github:axodotdev/oranda"
       }
     }
   }
