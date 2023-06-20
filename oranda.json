@@ -1,21 +1,11 @@
 {
   "analytics": {
-    "google_analytics": {
+    "google": {
       "tracking_id": "asdasda"
     },
     "fathom": {
       "site": "asdasd"
     }
-  },
-  "artifacts": {
-    "package_managers": [
-      {
-        "npm": "axo"
-      },
-      {
-        "cargo": "lol"
-      }
-    ]
   },
   "path_prefix": "sunfish-test"
 }
