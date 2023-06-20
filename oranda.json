@@ -1,16 +1,4 @@
 {
-  "name": "sunfish-test",
-  "repository": "https://github.com/SaraVieira/sunfish-test",
-  "description": "sup",
-  "changelog": false,
-  "styles": {
-    "theme": "light"
-  },
-  "dist_dir": "public",
-  "no_header": false,
-  "social": {
-    "image": "asdsa"
-  },
   "analytics": {
     "google_analytics": {
       "tracking_id": "asdasda"
@@ -19,11 +7,7 @@
       "site": "asdasd"
     }
   },
-  "readme_path": "README.md",
-  "additional_pages": [],
-  "static_dir": "static",
   "artifacts": {
-    "cargo_dist": false,
     "package_managers": [
       {
         "npm": "axo"
@@ -33,10 +17,5 @@
       }
     ]
   },
-  "path_prefix": "sunfish-test",
-  "funding.community_bridge": "asdasdas",
-  "funding": {
-    "community_bridge": "asdasdasdasd",
-    "ko_fi": "asdasd"
-  }
+  "path_prefix": "sunfish-test"
 }
