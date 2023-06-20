@@ -1,3 +1,6 @@
 {
+  "styles": {
+    "theme": "axodark"
+  },
   "path_prefix": "sunfish-test"
 }
