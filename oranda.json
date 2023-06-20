@@ -1,4 +1,7 @@
 {
+  "styles": {
+    "theme": "cupcake"
+  },
   "analytics": {
     "google_analytics": {
       "tracking_id": "asdasda"
@@ -17,6 +20,5 @@
       }
     ]
   },
-  "omg": "a",
   "path_prefix": "sunfish-test"
 }
