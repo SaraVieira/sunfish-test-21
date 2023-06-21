@@ -4,7 +4,7 @@
   "description": "sup",
   "changelog": false,
   "styles": {
-    "theme": "axodark"
+    "theme": "dark"
   },
   "dist_dir": "public",
   "readme_path": "README.md",
@@ -16,7 +16,6 @@
       "preferred": {
         "cargo": "cargo install oranda --locked --profile=dist",
         "npm": "npm install @axodotdev/oranda --save-dev",
-        "": "one",
         "test": "one"
       },
       "additional": {
