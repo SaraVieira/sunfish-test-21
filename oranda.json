@@ -16,7 +16,8 @@
       "preferred": {
         "cargo": "cargo install oranda --locked --profile=dist",
         "npm": "npm install @axodotdev/oranda --save-dev",
-        "": "one"
+        "": "one",
+        "test": "one"
       },
       "additional": {
         "binstall": "cargo binstall oranda",
