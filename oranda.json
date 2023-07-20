@@ -1,0 +1,25 @@
+{
+  "project": {
+    "name": "sunfish-test",
+    "repository": "https://github.com/SaraVieira/sunfish-test",
+    "description": "sup",
+    "readme_path": "./README.md"
+  },
+  "build": {
+    "dist_dir": "./public/",
+    "static_dir": "./static/",
+    "path_prefix": "sunfish-test"
+  },
+  "styles": {
+    "theme": "dark"
+  },
+  "components": {
+    "md_book": {
+      "theme": true
+    },
+    "changelog": false,
+    "funding": {
+      "yml_path": ".github/FUNDING.yml"
+    }
+  }
+}
