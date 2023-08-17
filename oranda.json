@@ -19,13 +19,6 @@
       "theme": true
     },
     "changelog": false,
-    "funding": false,
-    "artifacts": {
-      "package_managers": {
-        "preferred": {
-          "npm": "lol"
-        }
-      }
-    }
+    "funding": false
   }
 }
