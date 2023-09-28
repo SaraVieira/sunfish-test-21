@@ -10,7 +10,6 @@ pip install foobar
 
 ```
 
-
 ## Usage
 
 ```python
