@@ -5,11 +5,11 @@
   },
   "components": {
     "changelog": false,
-    "funding": false,
+    "funding": false
   },
   "build": {
     "dist_dir": "./public/",
-    "static_dir": "./static/",
+    "static_dir": "./static/"
   },
   "project": {
     "name": "sunfish-test",
