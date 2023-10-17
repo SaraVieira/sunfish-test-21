@@ -4,6 +4,9 @@
     "logo": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_16_2x.png"
   },
   "components": {
+    "mdbook": {
+      "theme": true
+    },
     "changelog": false,
     "funding": false,
     "md_book": {
