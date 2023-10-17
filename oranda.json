@@ -1,24 +1,27 @@
 {
-  "project": {
-    "name": "sunfish-test",
-    "repository": "https://github.com/SaraVieira/sunfish-test",
-    "description": "sup",
-    "readme_path": "./README.md"
+  "styles": {
+    "theme": "hacker",
+    "logo": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_16_2x.png"
+  },
+  "components": {
+    "mdbook": {
+      "theme": true
+    },
+    "changelog": false,
+    "funding": false,
+    "md_book": {
+      "theme": true
+    }
   },
   "build": {
     "dist_dir": "./public/",
     "static_dir": "./static/",
     "path_prefix": "sunfish-test"
   },
-  "styles": {
-    "theme": "hacker",
-    "logo": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_16_2x.png"
-  },
-  "components": {
-    "md_book": {
-      "theme": true
-    },
-    "changelog": false,
-    "funding": false
+  "project": {
+    "name": "sunfish-test",
+    "repository": "https://github.com/SaraVieira/sunfish-test",
+    "description": "sup",
+    "readme_path": "./README.md"
   }
 }
