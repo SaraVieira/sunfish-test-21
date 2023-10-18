@@ -4,12 +4,16 @@
     "logo": "https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_16_2x.png"
   },
   "components": {
+    "mdbook": {
+      "theme": true
+    },
     "changelog": false,
     "funding": false
   },
   "build": {
     "dist_dir": "./public/",
-    "static_dir": "./static/"
+    "static_dir": "./static/",
+    "path_prefix": "sunfish-test"
   },
   "project": {
     "name": "sunfish-test",
